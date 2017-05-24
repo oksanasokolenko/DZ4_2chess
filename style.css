@@ -1,0 +1,67 @@
+.main-block {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #c8c7c7;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.red1, .red2, .red3, .red4, .red5 {
+  width: 200px;
+  height: 200px;
+  background: #850000;
+}
+.img1, .img2, .img3 {
+  width: 200px;
+  height: 200px;
+}
+.white {
+  width: 200px;
+  height: 200px;
+  background: white;
+}
+.red1 {
+  position: absolute;
+  top:0;
+  left:0;
+}
+.img1 {
+  position: absolute;
+  top:0;
+  right: 200px;
+}
+.red2 {
+  position: absolute;
+  top:0;
+  right: 0;
+}
+.img2 {
+  position: absolute;
+  top: 200px;
+  left:0;
+}
+.red3 {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.white {
+    position: absolute;
+    top: 200px;
+    right:0;
+}
+.red4 {
+  position: absolute;
+  left:0;
+  bottom: 0;
+}
+.img3 {
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+}
+.red5 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
